@@ -152,11 +152,9 @@ These allow seamless inference during deployment.
 
 List your group here:
 
-* Member 1 — ID
-* Member 2 — ID
-* Member 3 — ID
-* Member 4 — ID
-* Member 5 — ID
+* Muhia, Wilson_Junior Wambugu
+* Muhumed, Zakariya Shafi
+* Kahsay, Ambachow Ykalom
 
 ---
 
