@@ -179,13 +179,3 @@ List your group here:
 This project is for academic and educational purposes under the USIU-A DSA3020 VA course.
 
 ---
-
-If you want, I can generate:
-
-✅ **app.py (complete working Streamlit app)**
-✅ **requirements.txt**
-✅ **preprocessing.py, models.py, utils.py**
-✅ **Final Report document (.docx)**
-✅ **PowerPoint Presentation**
-
-Just tell me **which one next.**
