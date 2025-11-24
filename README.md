@@ -40,9 +40,9 @@ Crop_Recommendation_Project/
 │   └── Crop_recommendation.csv     # Original dataset
 │
 ├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_data_preprocessing.ipynb
-│   └── 03_model_training.ipynb
+│   ├── 01_data_epreprocessing_and_xploration.ipynb
+│   ├── 02__model_training_and _selection.ipynb
+│  
 │
 ├── src/
 │   ├── preprocessing.py
