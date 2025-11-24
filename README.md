@@ -152,9 +152,13 @@ These allow seamless inference during deployment.
 
 List your group here:
 
-* Muhia, Wilson_Junior Wambugu
-* Muhumed, Zakariya Shafi
-* Kahsay, Ambachow Ykalom
+Group Members
+
+M## Group Members
+- Muhia, Wilson Junior Wambugu
+- [Muhumed, Zakariya Shafi](https://github.com/Zakishafi)
+- [Kahsay, Ambachow Ykalom](https://github.com/aykahsay)
+
 
 ---
 
