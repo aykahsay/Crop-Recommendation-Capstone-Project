@@ -94,7 +94,6 @@ The following models were trained and compared:
 | **MAE**      | **0.12**   |
 
 XGBoost outperformed all other models and was chosen for deployment.
-http://localhost:8504/
 - About XGBoost
 *by Analogy https://gemini.google.com/share/abef4af8514e*
 ---
