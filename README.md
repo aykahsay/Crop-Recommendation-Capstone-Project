@@ -9,6 +9,7 @@
 This project implements a full **end-to-end machine learning system** that recommends the most suitable crop to grow based on soil and environmental parameters. It follows the **CRISP-DM methodology**, covering business understanding, data preparation, modeling, evaluation, and deployment.
 
 The system is deployed using **Streamlit** to allow users to input soil nutrient levels and climate conditions, and receive real-time crop recommendations.
+![Uploading image.png…]()
 
 ---
 
