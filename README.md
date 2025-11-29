@@ -111,7 +111,7 @@ Plots include:
 ---
 
 ## 🚀 **Deployment Instructions (Streamlit – Free)**
-
+http://localhost:8509/
 ### **1️⃣ Install dependencies**
 
 ```
