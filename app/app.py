@@ -94,9 +94,7 @@ if model and scaler and le:
             
             # E. Display Result
             st.success(f"✅ The Recommended Crop is: **{predicted_crop_name.upper()}**")
-            
-            # Optional: Add an image or extra info based on result
-            st.balloons()
+
             
         except Exception as e:
             st.error(f"An error occurred during prediction: {e}")
