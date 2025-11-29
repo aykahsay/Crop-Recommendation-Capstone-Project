@@ -1,0 +1,3 @@
+cd "C:\Users\Admin\GitHub\Class Assignment and Projects\DSA3020\Crop-Recommen
+dation-Capstone-Project"
+$ streamlit run app/app.py
