@@ -1,2 +1,5 @@
 cd "C:\Users\Admin\GitHub\Class Assignment and Projects\DSA3020\Crop-Recommendation-Capstone-Project"
-$ streamlit run app/app.py
+streamlit run app/app.py
+
+cd "C:\Users\Admin\GitHub\Class Assignment and Projects\DSA3020\Crop-Recommendation-Capstone-Project"
+streamlit run app/app1.py
