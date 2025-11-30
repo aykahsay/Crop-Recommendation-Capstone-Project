@@ -202,7 +202,8 @@ Model
 * Git & GitHub
 
 ---
-
+## Project Managament
+[TO DO LIST](https://to-do.office.com/tasks/AQMkADY1NDcyNmI4LTNmMWEtNGU5My05NmE5LTI3ODliMjRjMDMwNAAuAAADNsPU94SCGEqAxR1CThjnQQEApiBwbSONxk_0ev_qutn1rQACDjI0jQAAAA==)
 ## 📎 **License**
 
 This project is developed for academic use under the **USIU-A DSA3020 VA** course.
