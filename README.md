@@ -1,4 +1,5 @@
 # **Crop Recommendation System — Machine Learning Capstone Project**
+<img width="915" height="834" alt="image" src="https://github.com/user-attachments/assets/d6346dcd-5315-41e0-b7d8-06c474b3463e" />
 
 **DSA3020 VA — United States International University–Africa**
 
