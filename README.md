@@ -99,24 +99,42 @@ The following ML algorithms were trained and evaluated:
 * Support Vector Machine (SVM)
 * **XGBoost Classifier (Final Model)**
 
----
+Selected Model
 
-## 🏆 **Final Selected Model: XGBoost Classifier**
+The Reduced & Tuned Random Forest Classifier (RTRFC) was chosen for deployment due to its:
 
-| Metric       | Score    |
-| ------------ | -------- |
-| **Accuracy** | **0.99** |
-| **MAE**      | **0.12** |
+High accuracy
 
-### ✔ Why XGBoost?
+Robust handling of feature interactions
 
-* Highest accuracy among all models
-* Handles non-linear relationships
-* Strong regularization (low overfitting)
-* Clear feature importance for interpretation
+Interpretability through feature importance
 
----
+Performance Metrics:
 
+| Model | Test Accuracy | Train Accuracy | MAE (Test) | Macro F1-score |
+|-------|---------------|----------------|------------|----------------|
+| **RTRFC** | 1.00 | 1.00 | 0.01 | 0.99 |
+| **XGBoost (XGBC)** | 0.99 | 1.00 | 0.00 | 0.99 |
+| **Random Forest (RFC)** | 0.99 | 0.99 | 0.12 | 0.98 |
+| **SVM** | 0.97 | 0.99 | 0.14 | 0.95 |
+| **Logistic Regression (LR)** | 0.96 | 0.97 | 0.30 | 0.95 |
+
+
+Note: Dataset was confirmed balanced, and train-test split was done before scaling and encoding to avoid leakage.
+
+📊 Evaluation Visuals
+
+Train vs Test Accuracy
+
+Train vs Test MAE
+
+Confusion Matrices
+
+Feature Importance Plot
+
+<img width="3000" height="1800" alt="image" src="https://github.com/user-attachments/assets/2258081a-bb3a-4e92-acff-fec6ecb5057f" />
+
+🚀 Deployment Instructions (Streamlit)
 ## 📊 **Model Evaluation Visuals**
 
 The analysis includes:
