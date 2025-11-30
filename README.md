@@ -183,8 +183,8 @@ Model
 
 ## 👥 **Group Members (DSA3020 VA)**
 
-* **[Muhia, Wilson Junior Wambugu](https://github.com/wambugushub)**
-* **[Muhumed, Zakariya Shafi](https://github.com/Zakishafi)**
+* **[Muhia, Wilson Junior Wambugu](https://github.com/wambugushub)** Role [Data Preparaing and Preprocessing](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/notebooks/01_data_preprocessing_and_exploration.ipynb)
+* **[Muhumed, Zakariya Shafi](https://github.com/Zakishafi)** [Modleing and Evalaution Lead]()
 * **[Kahsay, Ambachow Ykalom](https://github.com/aykahsay)**
 
 ---
