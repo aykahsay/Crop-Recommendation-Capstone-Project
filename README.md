@@ -167,7 +167,8 @@ The app instantly returns the recommended crop.
 | `label_encoder.pkl`             | For decoding predicted crop classes |
 
 These files allow direct deployment without retraining the model.
-
+Model 
+http://localhost:8513/
 ---
 
 ## 👥 **Group Members (DSA3020 VA)**
