@@ -1,28 +1,38 @@
-# **Crop Recommendation System — Machine Learning Capstone Project**
-<img width="915" height="834" alt="image" src="https://github.com/user-attachments/assets/d6346dcd-5315-41e0-b7d8-06c474b3463e" />
+
+# **🌾 Crop Recommendation System — Machine Learning Capstone Project**
 
 **DSA3020 VA — United States International University–Africa**
+
+<img width="915" alt="banner" src="https://github.com/user-attachments/assets/d6346dcd-5315-41e0-b7d8-06c474b3463e" />
 
 ---
 
 ## 📰 **Project Overview**
 
-This project implements a full **end-to-end machine learning system** that recommends the most suitable crop to grow based on soil and environmental parameters. It follows the **CRISP-DM methodology**, covering business understanding, data preparation, modeling, evaluation, and deployment.
+This project builds a full **end-to-end machine learning system** that recommends the most suitable crop to grow based on soil nutrients and environmental conditions.
 
-The system is deployed using **Streamlit** to allow users to input soil nutrient levels and climate conditions, and receive real-time crop recommendations.
-<img width="1280" height="598" alt="image" src="https://github.com/user-attachments/assets/d87400b9-15a0-47a5-b534-6e56bb1c00d6" />
+The workflow follows the **CRISP-DM methodology**, covering:
 
+* Business Understanding
+* Data Understanding
+* Data Preparation
+* Modeling
+* Evaluation
+* Deployment
 
+A user-friendly **Streamlit application** enables real-time crop recommendation from environmental inputs.
+
+<img width="1280" alt="app" src="https://github.com/user-attachments/assets/d87400b9-15a0-47a5-b534-6e56bb1c00d6" />
 
 ---
 
 ## 🎯 **Objectives**
 
-* Build a machine learning model that predicts the best crop to grow.
-* Use CRISP-DM to guide project workflow.
-* Compare multiple ML algorithms to identify the best performer.
-* Deploy the final model through a simple, free, interactive web application.
-* Demonstrate teamwork, version control skills, and reproducible research.
+* Build a predictive model for crop recommendation
+* Apply CRISP-DM methodology
+* Compare various ML algorithms
+* Deploy a functional Streamlit web app
+* Demonstrate collaboration, version control, and reproducibility
 
 ---
 
@@ -32,8 +42,8 @@ The system is deployed using **Streamlit** to allow users to input soil nutrient
 Crop_Recommendation_Project/
 │
 ├── app/
-│   ├── app.py                      # Streamlit app for deployment
-│   └── requirements.txt            # Libraries needed for deployment
+│   ├── app.py                      # Streamlit app
+│   └── requirements.txt            # Dependencies
 │
 ├── saved_models/
 │   ├── crop_recommendation_model.pkl
@@ -41,12 +51,11 @@ Crop_Recommendation_Project/
 │   └── label_encoder.pkl
 │
 ├── data/
-│   └── Crop_recommendation.csv     # Original dataset
+│   └── Crop_recommendation.csv
 │
 ├── notebooks/
-│   ├── 01_data_epreprocessing_and_xploration.ipynb
-│   ├── 02__model_training_and _selection.ipynb
-│  
+│   ├── 01_data_preprocessing_and_exploration.ipynb
+│   ├── 02_model_training_and_selection.ipynb
 │
 ├── src/
 │   ├── preprocessing.py
@@ -54,7 +63,7 @@ Crop_Recommendation_Project/
 │   └── utils.py
 │
 ├── reports/
-│   ├── figures/                    # Accuracy/MAE plots, confusion matrices
+│   ├── figures/
 │   └── final_report.docx
 │
 ├── README.md
@@ -65,69 +74,77 @@ Crop_Recommendation_Project/
 
 ## 🧠 **Dataset Description**
 
-The dataset contains agricultural soil and environmental features:
+The dataset contains agronomic variables commonly used for crop suitability analysis.
 
-| Feature         | Description                        |
-| --------------- | ---------------------------------- |
-| **N**           | Nitrogen content                   |
-| **P**           | Phosphorus content                 |
-| **K**           | Potassium content                  |
-| **temperature** | Temperature in °C                  |
-| **humidity**    | Relative humidity (%)              |
-| **ph**          | Soil pH value                      |
-| **rainfall**    | Rainfall in mm                     |
-| **label**       | Recommended crop (target variable) |
+| Feature         | Description               |
+| --------------- | ------------------------- |
+| **N**           | Nitrogen content in soil  |
+| **P**           | Phosphorus content        |
+| **K**           | Potassium content         |
+| **temperature** | Temperature (°C)          |
+| **humidity**    | Relative humidity (%)     |
+| **ph**          | Soil pH                   |
+| **rainfall**    | Rainfall (mm)             |
+| **label**       | Recommended crop (target) |
 
 ---
 
-## 🔧 **Modeling Approach**
+## 🤖 **Modeling Approach**
 
-The following models were trained and compared:
+The following ML algorithms were trained and evaluated:
 
 * Logistic Regression
 * Decision Tree Classifier
 * Random Forest Classifier
 * Support Vector Machine (SVM)
-* XGBoost Classifier (XGBC)
-
-### **Final Model Selected: XGBoost Classifier**
-
-| Metric       | Test Score |
-| ------------ | ---------- |
-| **Accuracy** | **0.99**   |
-| **MAE**      | **0.12**   |
-
-XGBoost outperformed all other models and was chosen for deployment.
-- About XGBoost
-*by Analogy https://gemini.google.com/share/abef4af8514e*
----
-
-## 📊 **Evaluation Visuals**
-
-Plots include:
-
-* Train vs Test Accuracy (side-by-side)
-* Train vs Test MAE (side-by-side)
-* Confusion Matrix
-* Feature Importance
+* **XGBoost Classifier (Final Model)**
 
 ---
 
-## 🚀 **Deployment Instructions (Streamlit – Free)**
-http://localhost:8509/
+## 🏆 **Final Selected Model: XGBoost Classifier**
+
+| Metric       | Score    |
+| ------------ | -------- |
+| **Accuracy** | **0.99** |
+| **MAE**      | **0.12** |
+
+### ✔ Why XGBoost?
+
+* Highest accuracy among all models
+* Handles non-linear relationships
+* Strong regularization (low overfitting)
+* Clear feature importance for interpretation
+
+---
+
+## 📊 **Model Evaluation Visuals**
+
+The analysis includes:
+
+* Train vs Test Accuracy Plot
+* Train vs Test MAE Plot
+* Confusion Matrix (Multiclass)
+* Feature Importance Plot
+
+These plots are included in the `reports/figures/` directory.
+
+---
+
+## 🚀 **Deployment Instructions (Streamlit)**
+
 ### **1️⃣ Install dependencies**
 
-```
+```bash
 pip install -r app/requirements.txt
 ```
 
-### **2️⃣ Run the Streamlit app**
+### **2️⃣ Run the application**
 
-```
+```bash
 streamlit run app/app.py
 ```
 
-The app will open in your browser and allow users to input:
+### **3️⃣ Enter the following inputs**
 
 * Nitrogen (N)
 * Phosphorus (P)
@@ -137,35 +154,31 @@ The app will open in your browser and allow users to input:
 * pH
 * Rainfall
 
-And receive a crop recommendation instantly.
+The app instantly returns the recommended crop.
 
 ---
 
 ## 💾 **Saved Artifacts**
 
-* `crop_recommendation_model.pkl` — trained XGBoost model
-* `scaler.pkl` — StandardScaler used during preprocessing
-* `label_encoder.pkl` — encoder for converting crop labels
+| File                            | Purpose                             |
+| ------------------------------- | ----------------------------------- |
+| `crop_recommendation_model.pkl` | Trained XGBoost model               |
+| `scaler.pkl`                    | StandardScaler for feature scaling  |
+| `label_encoder.pkl`             | For decoding predicted crop classes |
 
-These allow seamless inference during deployment.
-
----
-
-## 👥 **Team Members**
-
-List your group here:
-
-Group Members
-
-M## Group Members
-- Muhia, Wilson Junior Wambugu
-- [Muhumed, Zakariya Shafi](https://github.com/Zakishafi)
-- [Kahsay, Ambachow Ykalom](https://github.com/aykahsay)
-
+These files allow direct deployment without retraining the model.
 
 ---
 
-## 📘 **Technology Stack**
+## 👥 **Group Members (DSA3020 VA)**
+
+* **Muhia, Wilson Junior Wambugu**
+* **[Muhumed, Zakariya Shafi](https://github.com/Zakishafi)**
+* **[Kahsay, Ambachow Ykalom](https://github.com/aykahsay)**
+
+---
+
+## 🛠 **Technology Stack**
 
 * Python
 * Pandas, NumPy
@@ -181,6 +194,6 @@ M## Group Members
 
 ## 📎 **License**
 
-This project is for academic and educational purposes under the USIU-A DSA3020 VA course.
+This project is developed for academic use under the **USIU-A DSA3020 VA** course.
 
 ---
