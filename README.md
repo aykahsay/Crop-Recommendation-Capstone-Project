@@ -97,17 +97,23 @@ The following ML algorithms were trained and evaluated:
 * Decision Tree Classifier
 * Random Forest Classifier
 * Support Vector Machine (SVM)
-* **XGBoost Classifier (Final Model)**
+* XGBoost Classifier
+📊 Evaluation Visuals
 
-Selected Model
+Train vs Test Accuracy
 
-The Reduced & Tuned Random Forest Classifier (RTRFC) was chosen for deployment due to its:
+Train vs Test MAE
 
-High accuracy
+Confusion Matrices
 
-Robust handling of feature interactions
+## 📊 **Model Evaluation Visuals**
 
-Interpretability through feature importance
+The analysis includes:
+
+* Train vs Test Accuracy Plot
+* Train vs Test MAE Plot
+* Confusion Matrix (Multiclass)
+* Feature Importance Plot
 
 Performance Metrics:
 
@@ -122,32 +128,18 @@ Performance Metrics:
 
 Note: Dataset was confirmed balanced, and train-test split was done before scaling and encoding to avoid leakage.
 
-📊 Evaluation Visuals
-
-Train vs Test Accuracy
-
-Train vs Test MAE
-
-Confusion Matrices
-
-Feature Importance Plot
-
 <img width="3000" height="1800" alt="image" src="https://github.com/user-attachments/assets/2258081a-bb3a-4e92-acff-fec6ecb5057f" />
 
-🚀 Deployment Instructions (Streamlit)
-## 📊 **Model Evaluation Visuals**
-
-The analysis includes:
-
-* Train vs Test Accuracy Plot
-* Train vs Test MAE Plot
-* Confusion Matrix (Multiclass)
-* Feature Importance Plot
-
-These plots are included in the `reports/figures/` directory.
-
 ---
+#### **Selected Model**
 
+The Reduced & Tuned Random Forest Classifier (RTRFC) was chosen for deployment due to its:
+
+High accuracy
+
+Robust handling of feature interactions
+
+Interpretability through feature importance
 ## 🚀 **Deployment Instructions (Streamlit)**
 
 ### **1️⃣ Install dependencies**
@@ -180,13 +172,13 @@ The app instantly returns the recommended crop.
 
 | File                            | Purpose                             |
 | ------------------------------- | ----------------------------------- |
-| `crop_recommendation_model.pkl` | Trained XGBoost model               |
+| `crop_recommendation_model.pkl` | Tuned Random Forest Model with selected Feaytures|
 | `scaler.pkl`                    | StandardScaler for feature scaling  |
 | `label_encoder.pkl`             | For decoding predicted crop classes |
 
 These files allow direct deployment without retraining the model.
 Model 
-http://localhost:8513/
+[http://localhost:8513/](http://localhost:8513/)
 ---
 
 ## 👥 **Group Members (DSA3020 VA)**
