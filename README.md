@@ -185,9 +185,12 @@ Model
 [ppt](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/Smart%20Crop%20Recommendation%20System.pptx)
 ## 👥 **Group Members (DSA3020 VA)**
 
-* **[Muhia, Wilson Junior Wambugu](https://github.com/wambugushub)**  [Data Preparaing and Preprocessing](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/notebooks/01_data_preprocessing_and_exploration.ipynb)
-* **[Kahsay, Ambachow Ykalom](https://github.com/aykahsay)** [Modleing and Evalaution Lead](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/notebooks/02_model_training._model_selection.ipynb)
-* **[Muhumed, Zakariya Shafi](https://github.com/Zakishafi)** [Deployment and Documentaion Lead](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/app/app4.py)
+* **[Muhia, Wilson Junior Wambugu](https://github.com/wambugushub)**
+  - [Data Preparaing and Preprocessing](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/notebooks/01_data_preprocessing_and_exploration.ipynb)
+* **[Kahsay, Ambachow Ykalom](https://github.com/aykahsay)**
+  - [Modleing and Evalaution Lead](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/notebooks/02_model_training._model_selection.ipynb)
+* **[Muhumed, Zakariya Shafi](https://github.com/Zakishafi)**
+  - [Deployment and Documentaion Lead](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/app/app4.py)
 ---
 
 ## 🛠 **Technology Stack**
