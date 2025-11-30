@@ -173,7 +173,7 @@ http://localhost:8513/
 
 ## 👥 **Group Members (DSA3020 VA)**
 
-* **Muhia, Wilson Junior Wambugu**
+* **[Muhia, Wilson Junior Wambugu](https://github.com/wambugushub)**
 * **[Muhumed, Zakariya Shafi](https://github.com/Zakishafi)**
 * **[Kahsay, Ambachow Ykalom](https://github.com/aykahsay)**
 
