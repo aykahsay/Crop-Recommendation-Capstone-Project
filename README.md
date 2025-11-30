@@ -129,8 +129,9 @@ Performance Metrics:
 Note: Dataset was confirmed balanced, and train-test split was done before scaling and encoding to avoid leakage.
 
 <img width="3000" height="1800" alt="image" src="https://github.com/user-attachments/assets/2258081a-bb3a-4e92-acff-fec6ecb5057f" />
-
+**[For more Figures click this link]**(https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/tree/main/reports/figures)
 ---
+
 #### **Selected Model**
 
 The Reduced & Tuned Random Forest Classifier (RTRFC) was chosen for deployment due to its:
@@ -180,13 +181,13 @@ These files allow direct deployment without retraining the model.
 Model 
 [http://localhost:8513/](http://localhost:8513/)
 ---
-
+### **Presentation**
+[ppt](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/Smart%20Crop%20Recommendation%20System.pptx)
 ## 👥 **Group Members (DSA3020 VA)**
 
-* **[Muhia, Wilson Junior Wambugu](https://github.com/wambugushub)** Role [Data Preparaing and Preprocessing](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/notebooks/01_data_preprocessing_and_exploration.ipynb)
-* **[Muhumed, Zakariya Shafi](https://github.com/Zakishafi)** [Modleing and Evalaution Lead]()
-* **[Kahsay, Ambachow Ykalom](https://github.com/aykahsay)**
-
+* **[Muhia, Wilson Junior Wambugu](https://github.com/wambugushub)**  [Data Preparaing and Preprocessing](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/notebooks/01_data_preprocessing_and_exploration.ipynb)
+* **[Kahsay, Ambachow Ykalom](https://github.com/aykahsay)** [Modleing and Evalaution Lead](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/notebooks/02_model_training._model_selection.ipynb)
+* **[Muhumed, Zakariya Shafi](https://github.com/Zakishafi)** [Deployment and Documentaion Lead](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/app/app4.py)
 ---
 
 ## 🛠 **Technology Stack**
