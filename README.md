@@ -179,8 +179,8 @@ The app instantly returns the recommended crop.
 | `label_encoder.pkl`             | For decoding predicted crop classes |
 
 These files allow direct deployment without retraining the model.
-Model 
-[http://localhost:8513/](http://localhost:8513/)
+### **Model Deployment**
+[Random Forest Model](http://localhost:8501/)
 ---
 ### **Presentation**
 [ppt](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/Smart%20Crop%20Recommendation%20System.pptx)
