@@ -1,7 +1,6 @@
 
 # **🌾 Crop Recommendation System — Machine Learning Capstone Project**
 - Maximize agricultural yield by recommending appropriate crops
-**DSA3020 VA — United States International University–Africa**
 
 <img width="915" alt="banner" src="https://github.com/user-attachments/assets/d6346dcd-5315-41e0-b7d8-06c474b3463e" />
 
@@ -187,13 +186,13 @@ These files allow direct deployment without retraining the model.
 [ppt](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/Smart%20Crop%20Recommendation%20System.pptx)
 ## 👥 **Group Members (DSA3020 VA)**
 
-* **[Muhia, Wilson Junior Wambugu](https://github.com/wambugushub)**
+* **[Muhumed, Zakariya Shafi](https://github.com/wambugushub)**
   - [Data Preparaing and Preprocessing](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/notebooks/01_data_preprocessing_and_exploration.ipynb)
 * **[Kahsay, Ambachow Ykalom](https://github.com/aykahsay)**
   - [Modleing and Evalaution Lead](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/notebooks/02_model_training._model_selection.ipynb)
-* **[Muhumed, Zakariya Shafi](https://github.com/Zakishafi)**
+* **[Muhia, Wilson Junior Wambugu](https://github.com/Zakishafi)**
   - [Deployment and Documentaion Lead](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/app/app4.py)
----
+--- 
 
 ## 🛠 **Technology Stack**
 
@@ -213,5 +212,5 @@ These files allow direct deployment without retraining the model.
 ## 📎 **License**
 
 This project is developed for academic use under the **USIU-A DSA3020 VA** course.
-
+- **DSA3020 VA — United States International University–Africa**
 ---
