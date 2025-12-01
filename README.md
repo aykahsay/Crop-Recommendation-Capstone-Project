@@ -87,6 +87,7 @@ The dataset contains agronomic variables commonly used for crop suitability anal
 | **rainfall**    | Rainfall (mm)             |
 | **label**       | Recommended crop (target) |
 
+**[Data Source]**(https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset?utm_source=chatgpt.com)
 ---
 
 ## 🤖 **Modeling Approach**
