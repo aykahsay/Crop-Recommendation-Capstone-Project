@@ -131,7 +131,7 @@ Note: Dataset was confirmed balanced, and train-test split was done before scali
 
 <img width="3000" height="1800" alt="image" src="https://github.com/user-attachments/assets/2258081a-bb3a-4e92-acff-fec6ecb5057f" />
 
-**[For more Figures click this link]**(https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/tree/main/reports/figures)
+[For more Figures click this link](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/tree/main/reports/figures)
 ---
 
 #### **Selected Model**
