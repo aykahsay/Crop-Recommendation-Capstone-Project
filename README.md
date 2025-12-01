@@ -1,6 +1,6 @@
 
 # **🌾 Crop Recommendation System — Machine Learning Capstone Project**
-
+- Maximize agricultural yield by recommending appropriate crops
 **DSA3020 VA — United States International University–Africa**
 
 <img width="915" alt="banner" src="https://github.com/user-attachments/assets/d6346dcd-5315-41e0-b7d8-06c474b3463e" />
