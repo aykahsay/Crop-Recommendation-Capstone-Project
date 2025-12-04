@@ -63,12 +63,12 @@ Crop_Recommendation_Project/
 │
 ├── reports/
 │   ├── figures/
-│   └── [final_report.docx](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/tree/main/reports)
+│   └── Crop-Recommendation-Capstone-Project.pdf
 │
 ├── README.md
 └── .gitignore
 ```
-
+[Project Technical Report Please click me]((https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/tree/main/reports)
 ---
 
 ## 🧠 **Dataset Description**
