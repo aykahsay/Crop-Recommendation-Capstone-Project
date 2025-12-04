@@ -1,7 +1,6 @@
 
 # **🌾 Crop Recommendation System — Machine Learning Capstone Project**
-
-**DSA3020 VA — United States International University–Africa**
+- Maximize agricultural yield by recommending appropriate crops
 
 <img width="915" alt="banner" src="https://github.com/user-attachments/assets/d6346dcd-5315-41e0-b7d8-06c474b3463e" />
 
@@ -87,6 +86,7 @@ The dataset contains agronomic variables commonly used for crop suitability anal
 | **rainfall**    | Rainfall (mm)             |
 | **label**       | Recommended crop (target) |
 
+[Kaggle-Crop Recommendation Dataset](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset?utm_source=chatgpt.com)
 ---
 
 ## 🤖 **Modeling Approach**
@@ -129,7 +129,8 @@ Performance Metrics:
 Note: Dataset was confirmed balanced, and train-test split was done before scaling and encoding to avoid leakage.
 
 <img width="3000" height="1800" alt="image" src="https://github.com/user-attachments/assets/2258081a-bb3a-4e92-acff-fec6ecb5057f" />
-**[For more Figures click this link]**(https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/tree/main/reports/figures)
+
+[For more Figures click this link](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/tree/main/reports/figures)
 ---
 
 #### **Selected Model**
@@ -178,20 +179,20 @@ The app instantly returns the recommended crop.
 | `label_encoder.pkl`             | For decoding predicted crop classes |
 
 These files allow direct deployment without retraining the model.
-Model 
-[http://localhost:8513/](http://localhost:8513/)
+### **Model Deployment**
+[Random Forest Model](http://localhost:8501/)
 ---
 ### **Presentation**
 [ppt](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/Smart%20Crop%20Recommendation%20System.pptx)
 ## 👥 **Group Members (DSA3020 VA)**
 
-* **[Muhia, Wilson Junior Wambugu](https://github.com/wambugushub)**
+* **[Muhumed, Zakariya Shafi](https://github.com/wambugushub)**
   - [Data Preparaing and Preprocessing](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/notebooks/01_data_preprocessing_and_exploration.ipynb)
 * **[Kahsay, Ambachow Ykalom](https://github.com/aykahsay)**
   - [Modleing and Evalaution Lead](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/notebooks/02_model_training._model_selection.ipynb)
-* **[Muhumed, Zakariya Shafi](https://github.com/Zakishafi)**
+* **[Muhia, Wilson Junior Wambugu](https://github.com/Zakishafi)**
   - [Deployment and Documentaion Lead](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/blob/main/app/app4.py)
----
+--- 
 
 ## 🛠 **Technology Stack**
 
@@ -211,5 +212,5 @@ Model
 ## 📎 **License**
 
 This project is developed for academic use under the **USIU-A DSA3020 VA** course.
-
+- **DSA3020 VA — United States International University–Africa**
 ---
