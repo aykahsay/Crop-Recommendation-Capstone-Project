@@ -68,7 +68,7 @@ Crop_Recommendation_Project/
 ├── README.md
 └── .gitignore
 ```
-[Project Technical Report Please click me]((https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/tree/main/reports)
+[Project Technical Report Please click me](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/tree/main/reports)
 ---
 
 ## 🧠 **Dataset Description**
