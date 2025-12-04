@@ -63,7 +63,7 @@ Crop_Recommendation_Project/
 │
 ├── reports/
 │   ├── figures/
-│   └── final_report.docx
+│   └── [final_report.docx](https://github.com/aykahsay/Crop-Recommendation-Capstone-Project/tree/main/reports)
 │
 ├── README.md
 └── .gitignore
